@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>The Bean</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  
+  <style>
+    html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background: rgb(42,34,195);
+	background: linear-gradient(180deg, rgba(42,34,195,1) 0%, rgba(147,34,195,1) 100%);
+	overflow: hidden;
+	color: white;
+}
+
+h1 {
+	font-size: 7vh !important;
+}
+
+.bar {
+	background-color: rgb(131, 79, 194);
+	height: 8%;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	border-color: black;
+	border-block-width: 2px;
+	border-top-style: solid;
+}
+
+.bean {
+	position: absolute;
+	bottom: 8%;
+	margin-left: 2%;
+}
+
+.eman {
+	position: absolute;
+	bottom: 8%;
+	margin-left: 7%;
+}
+
+.classical {
+	position: absolute;
+	bottom: 8%;
+	margin-left: 11%;
+}
+
+.declown {
+	position: absolute;
+	bottom: 8%;
+	right: 0px;
+	margin-right: 2%;
+}
+
+.clown {
+	position: absolute;
+	bottom: 8%;
+	right: 0px;
+	margin-right: 11%;
+}
+
+.btn {
+	background-color: rgb(131, 79, 194) !important;
+	font-size: 5vh !important;
+	width: 50%;
+}
+  </style>
+	
+	<div><center>
+		<h1>The Bean</h1>
+		<a class="waves-effect waves-light btn-large btn" onclick="document.location.href = 'https://game.imibuks.repl.co'">Play</a><br><br>
+		
+		<a class="waves-effect waves-light btn-large btn" onclick='document.location.href = "https://blancstore.imibuks.repl.co"'>Stuff</a><br><br>
+
+		<a class="waves-effect waves-light btn-large btn" onclick='document.location.href = "https://forms.gle/AzxZ3HexrvpfS5cn7"'>Mob Vote</a><br><br>
+		
+		<a class="waves-effect waves-light btn-large btn">Email</a>
+	</div></center>
+
+	<!-- Bean bar -->
+	<img title='The 2nd main character, random chance' class='bean' src='img/bean.png'/>
+	<img class='eman' title='E is the best letter, and now its allive!' src='img/eman.png'/>
+	<img class='classical' title='The OG character, from kaboom.js' src='img/classics.png'/>
+
+	<img class='declown' tite='The new clown skin that i drew my self on ma tab ;)' src='img/declown.png'/>
+	<img class='clown' title='The OG clown made in Paint 3d by me ;)' src='img/clown.png'/>
+	
+	<div class='bar'></div>
+	
+	<script src="script.js"></script>
+
+	<script src="https://replit.com/public/js/replit-badge.js" theme="purple" defer></script>
+</body>
+
+</html>
