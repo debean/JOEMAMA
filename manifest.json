@@ -13,8 +13,8 @@
     "name": "Direcly to game",
     "short_name": "The Bean",
     "description": "Go directily to the play.html file",
-    "url": "https://debean.github.io/play.html",
-  }],
+    "url": "https://debean.github.io/play.html"
+  },],
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
