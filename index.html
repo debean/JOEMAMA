@@ -1,53 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>The Bean</title>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<meta name="description" content="The bean. Enjoy a great game :)">
+	<title>Bean Homepage</title>
+	<link preload href="https://ourcss.imibuks.repl.co/style.css" rel="stylesheet" type="text/css">
+	<link preload href='style.css' rel='stylesheet' type='text/css'>
+	<link rel="manifest" href="/manifest.json">
+
+	<!-- ios support -->
+	<link rel="apple-touch-icon" href="ios/72" />
+	<link rel="apple-touch-icon" href="ios/96.png" />
+	<link rel="apple-touch-icon" href="ios/128.png" />
+	<link rel="apple-touch-icon" href="ios/144.png" />
+	<link rel="apple-touch-icon" href="ios/152.png" />
+	<link rel="apple-touch-icon" href="ios/192.png" />
+	<link rel="apple-touch-icon" href="ios/384.png" />
+	<link rel="apple-touch-icon" href="ios/512.png" />
+	<meta name="apple-mobile-web-app-status-bar" content="#4cc971"/>
+	<meta name="theme-color" content="#4cc971" />
 </head>
-
 <body>
-  
-  <style>
-    html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-	background: rgb(42,34,195);
-	background: linear-gradient(180deg, rgba(42,34,195,1) 0%, rgba(147,34,195,1) 100%);
-	overflow: hidden;
-	color: white;
-}
 
-h1 {
-	font-size: 7vh !important;
-}
-
-.btn {
-	background-color: rgb(131, 79, 194) !important;
-	font-size: 5vh !important;
-	width: 50%;
-}
-  </style>
-	
-	<div><center>
+<div class='contents'>
+	<center>
 		<h1>The Bean</h1>
-		<h4>Bean Mobvote by debeans22@gmail.com</h4>
-		<a class="waves-effect waves-light btn-large btn" onclick="document.location.href = 'https://game.imibuks.repl.co'">Play</a><br><br>
-		
-		<a class="waves-effect waves-light btn-large btn" onclick='document.location.href = "https://blancstore.imibuks.repl.co"'>Stuff</a><br><br>
+		<h2>Now made using the very good <a href='https://ourcss.imibuks.repl.co/'>Our.CSS</a></h2>
 
-		<a class="waves-effect waves-light btn-large btn" onclick='document.location.href = "https://forms.gle/AzxZ3HexrvpfS5cn7"'>Mob Vote</a><br><br>
-		
-		<a class="waves-effect waves-light btn-large btn" onclick='document.location.href = "mailto:debeans22@gmail.com"'>New Email</a>
-	</div></center>
-	
-	<script src="script.js"></script>
+		<div class='m20'>
+			
+			<a href='https://game.imibuks.repl.co' class='txt-len'>
+				<button class='w100 gren txt-len zoom-lg'>Play</button>
+			</a>
 
-	<script src="https://replit.com/public/js/replit-badge.js" theme="purple" defer></script>
+			<a class='txt-white'>
+				<button class='w100 deepPurple zoom-lg' onclick='vote()'>Vote</button>
+			</a>
+
+			<a class='txt-len'>
+				<button class='w100 gren zoom-lg' onclick='blancstore()'>Blancstore</button>
+			</a>
+			
+		</div>
+	</center>
+</div>
+
+<script async src="script.js"></script>
+
+<!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+	<a href='https://replit.com/@IMIBUKS/testbean'>
+		<button class='zoom-lg gren mwr txt-orange' onclick='document.location.href = "https://replit.com/@IMIBUKS/testbean"'>⠕ Made with
+	replit</button>
+	</a>
 </body>
 
 </html>
