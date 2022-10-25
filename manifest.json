@@ -8,6 +8,13 @@
   "scope": "/",
   "theme_color": "#4cc971",
   "description": "The bean, the endless runner game",
+  "shortcuts": [{
+    "name": "Direcly to game",
+    "short_name": "The Bean",
+    "description": "Go directily to the play.html file",
+    "url": "https://debean.github.io/play.html",
+    "icons": [{"src": "windows11/Square150x150Logo.scale-125.png", "size": "150x150"}]
+  }]
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
