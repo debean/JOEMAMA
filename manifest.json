@@ -5,6 +5,7 @@
   "start_url": "/?source=pwa",
   "background_color": "#4cc971",
   "display": "standalone",
+  "orientation": "landscape",
   "scope": "/",
   "theme_color": "#4cc971",
   "description": "The bean, the endless runner game",
@@ -13,7 +14,6 @@
     "short_name": "The Bean",
     "description": "Go directily to the play.html file",
     "url": "https://debean.github.io/play.html",
-    "icons": [{"src": "windows11/Square150x150Logo.scale-125.png", "size": "150x150"}]
   }],
   "icons": [
     {
