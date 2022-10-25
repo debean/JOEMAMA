@@ -9,12 +9,14 @@
   "scope": "/",
   "theme_color": "#4cc971",
   "description": "The bean, the endless runner game",
-  "shortcuts": [{
-    "name": "Direcly to game",
-    "short_name": "The Bean",
-    "description": "Go directily to the play.html file",
-    "url": "https://debean.github.io/play.html"
-  },],
+  "shortcuts": [
+    {
+      "name": "Play The Bean",
+      "short_name": "Play Game",
+      "description": "Direclly go to play.html (embed of game.imibuks.repl.co)",
+      "url": "https://debean.github.io/play.html",
+    },
+  ],
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
