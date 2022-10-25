@@ -1,0 +1,37 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #4cc971 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	color: #252e3a !important;
+}
+
+h1 {
+	font-size: 500%;
+}
+
+.gren {
+	background-color: #252e3a!important;
+}
+
+.txt-gren {
+	color: #27253a!important;
+}
+
+.len {
+	background-color: #4cc971!important;
+}
+
+.txt-len {
+	color: #4cc971 !important;
+}
+
+.txt-white {
+	color: white !important;
+}
+
+.blanc {
+	background-color: #4caf50;
+}
