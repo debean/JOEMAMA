@@ -1,9 +1,9 @@
 function download() {
-	const quest = confirm("Do you want to go the download screen (APK)?")
+	const quest = confirm("Do you want to go the download the unstable, broken APK")
 
 	if (quest == true) {
-		alert("Ok. Going to downloads. Be prepared")
-		document.location = "https:/debeans.github.io/downloads.html"
+		alert("Ok. Going to downloads. Be prepared for a buggy bad experience.")
+		document.location = "https://github.com/debean/debean.github.io/releases/download/apk-test/The.Bean.apk"
 	}
 }
 
@@ -12,7 +12,7 @@ function blancstore() {
 
 	if (quest == true) {
 		alert("Ok. Going to blancstore. Be prepared")
-		document.location = "https://blanstore.imibuks.repl.co"
+		document.location = "https://blancstore.imibuks.repl.co"
 	}
 }
 
