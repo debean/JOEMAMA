@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "io.github.debean.twa",
+                     "sha256_cert_fingerprints": ["08:36:99:E7:F9:19:39:9E:A4:AD:B5:2E:A0:B7:F7:02:1E:ED:38:66:B3:B5:48:76:BD:1C:4C:68:91:89:8E:B2"] }
+      }
+]
