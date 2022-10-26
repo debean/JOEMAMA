@@ -1,9 +1,9 @@
-function vote() {
-	const quest = confirm("Do you want to go the gogle form?")
+function download() {
+	const quest = confirm("Do you want to go the download screen (APK)?")
 
 	if (quest == true) {
-		alert("Ok. Going to form. Be prepared")
-		document.location = "https://forms.gle/hVwonzsXXKSHAG968"
+		alert("Ok. Going to downloads. Be prepared")
+		document.location = "https:/debeans.github.io/downloads.html"
 	}
 }
 
