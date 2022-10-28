@@ -7,12 +7,12 @@ function download() {
 	}
 }
 
-function blancstore() {
-	const quest = confirm("Do you want to go blancstore?")
+function blog() {
+	const quest = confirm("Do you want to go the bean news?")
 
 	if (quest == true) {
-		alert("Ok. Going to blancstore. Be prepared")
-		document.location = "https://blancstore.imibuks.repl.co"
+		alert("Ok. Going to news. Be prepared")
+		document.location = "https://debeans.blogspot.com/"
 	}
 }
 
